@@ -24,7 +24,7 @@ struct ListView: View {
                         ) }
 
 
-                }.navigationTitle("All Maps 🗺")
+                }.navigationTitle("All Maps 🗺").navigation
             }
         }
     }
