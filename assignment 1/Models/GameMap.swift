@@ -9,8 +9,7 @@ import CoreLocation
 import Foundation
 class GameMap: Identifiable, Decodable {
     var id: UUID?
-    var name: String
-    var image: String?
+    var name: String?
     var overview: String?
     
     var location: String?
@@ -20,5 +19,7 @@ class GameMap: Identifiable, Decodable {
     var coordinate:  CLLocationCoordinate2D?{
         CLLocationCoordinate2D(latitude: latitude!, longitude: longitude!)
     }
+    var map: String?
+    var ctwin: Double?
     
 }
