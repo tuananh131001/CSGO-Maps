@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D12EBCE28964980007F1BFD /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12EBCD28964980007F1BFD /* GameMode.swift */; };
+		3D12EBD32896515F007F1BFD /* HStackModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12EBD22896515F007F1BFD /* HStackModes.swift */; };
+		3D12EBD528967939007F1BFD /* ModeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12EBD428967939007F1BFD /* ModeDetail.swift */; };
+		3D12EBD72897C786007F1BFD /* MapBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12EBD62897C786007F1BFD /* MapBanner.swift */; };
+		3D12EBD92897CC52007F1BFD /* HStackGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12EBD82897CC52007F1BFD /* HStackGroups.swift */; };
 		3D4922242892DAD700C5E6A2 /* HeaderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4922232892DAD700C5E6A2 /* HeaderDetail.swift */; };
+		3D49B9CF289382FF007F6805 /* maintheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D49B9CE289382FF007F6805 /* maintheme.mp3 */; };
+		3D49B9D22893834C007F6805 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D49B9D12893834C007F6805 /* PlaySound.swift */; };
 		3D75D8A0288FFFC3000EF0A7 /* ImageZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75D89F288FFFC3000EF0A7 /* ImageZoomView.swift */; };
 		3D81C7B62886C8BE00A23B71 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81C7B52886C8BE00A23B71 /* MapView.swift */; };
+		3D937691289905C900AC0C66 /* CSGOTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D937690289905C900AC0C66 /* CSGOTabView.swift */; };
+		3D9376932899065800AC0C66 /* CSGOBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9376922899065800AC0C66 /* CSGOBrowseView.swift */; };
+		3D9376952899075A00AC0C66 /* VStackMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9376942899075A00AC0C66 /* VStackMap.swift */; };
+		3D9376A028991E7000AC0C66 /* mapmusic6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769628991E7000AC0C66 /* mapmusic6.mp3 */; };
+		3D9376A128991E7000AC0C66 /* mapmusic5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769728991E7000AC0C66 /* mapmusic5.mp3 */; };
+		3D9376A328991E7000AC0C66 /* mapmusic7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769928991E7000AC0C66 /* mapmusic7.mp3 */; };
+		3D9376A428991E7000AC0C66 /* mapmusic3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769A28991E7000AC0C66 /* mapmusic3.mp3 */; };
+		3D9376A528991E7000AC0C66 /* mapmusic8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769B28991E7000AC0C66 /* mapmusic8.mp3 */; };
+		3D9376A628991E7000AC0C66 /* mapmusic10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769C28991E7000AC0C66 /* mapmusic10.mp3 */; };
+		3D9376A728991E7000AC0C66 /* mapmusic4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769D28991E7000AC0C66 /* mapmusic4.mp3 */; };
+		3D9376A828991E7000AC0C66 /* mapmusic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769E28991E7000AC0C66 /* mapmusic2.mp3 */; };
+		3D9376A928991E7000AC0C66 /* mapmusic9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93769F28991E7000AC0C66 /* mapmusic9.mp3 */; };
+		3D9376AE289927ED00AC0C66 /* welcomemusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9376AD289927ED00AC0C66 /* welcomemusic.mp3 */; };
+		3DB7FF0628939F6700E67352 /* mapmusic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7FF0528939F6700E67352 /* mapmusic1.mp3 */; };
+		3DB7FF0A2893C5DD00E67352 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7FF092893C5DD00E67352 /* WelcomeView.swift */; };
+		3DB7FF0C2893C60D00E67352 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7FF0B2893C60D00E67352 /* GreetingView.swift */; };
+		3DB7FF102893CFB100E67352 /* mode.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7FF0F2893CFB100E67352 /* mode.json */; };
 		3DB96D4E288849F1009B8B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB96D4D288849F1009B8B6A /* Assets.xcassets */; };
 		3DC240DD287D78BB000BB557 /* assignment_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC240DC287D78BB000BB557 /* assignment_1App.swift */; };
 		3DC240E4287D78BF000BB557 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC240E3287D78BF000BB557 /* Preview Assets.xcassets */; };
-		3DC2410B287D7C6C000BB557 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2410A287D7C6C000BB557 /* ListView.swift */; };
+		3DC2410B287D7C6C000BB557 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2410A287D7C6C000BB557 /* FeaturedView.swift */; };
 		3DC2410D287D8044000BB557 /* GameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2410C287D8044000BB557 /* GameMap.swift */; };
 		3DC24110287D80DB000BB557 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2410F287D80DB000BB557 /* DataServices.swift */; };
 		3DC24113287D8114000BB557 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DC24112287D8114000BB557 /* map.json */; };
 		3DC24115287D813A000BB557 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC24114287D813A000BB557 /* MapModel.swift */; };
 		3DC24117287D825B000BB557 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC24116287D825B000BB557 /* MapDetailView.swift */; };
+		3DCF2CAE2898F70800CEB387 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF2CAD2898F70800CEB387 /* GifImage.swift */; };
+		3DCF2CB02898F8B800CEB387 /* csgogif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */; };
+		3DCF2CB22898F92E00CEB387 /* csgo-dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */; };
+		3DCF2CB42898FAAB00CEB387 /* letsroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CB32898FAAB00CEB387 /* letsroll.mp3 */; };
 		3DFC80962892C53C00AC0144 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC80952892C53C00AC0144 /* RectangleImage.swift */; };
 		3DFC80982892CACC00AC0144 /* CalloutMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC80972892CACC00AC0144 /* CalloutMapView.swift */; };
 		3DFC809A2892CCA700AC0144 /* InfoBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC80992892CCA700AC0144 /* InfoBarView.swift */; };
@@ -42,21 +70,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D12EBCD28964980007F1BFD /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		3D12EBD22896515F007F1BFD /* HStackModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackModes.swift; sourceTree = "<group>"; };
+		3D12EBD428967939007F1BFD /* ModeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDetail.swift; sourceTree = "<group>"; };
+		3D12EBD62897C786007F1BFD /* MapBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBanner.swift; sourceTree = "<group>"; };
+		3D12EBD82897CC52007F1BFD /* HStackGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackGroups.swift; sourceTree = "<group>"; };
 		3D4922232892DAD700C5E6A2 /* HeaderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetail.swift; sourceTree = "<group>"; };
+		3D4922252892E78C00C5E6A2 /* CSGO-Maps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CSGO-Maps-Info.plist"; sourceTree = "<group>"; };
+		3D49B9CE289382FF007F6805 /* maintheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maintheme.mp3; sourceTree = "<group>"; };
+		3D49B9D12893834C007F6805 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		3D75D89F288FFFC3000EF0A7 /* ImageZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomView.swift; sourceTree = "<group>"; };
 		3D81C7B52886C8BE00A23B71 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3D937690289905C900AC0C66 /* CSGOTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGOTabView.swift; sourceTree = "<group>"; };
+		3D9376922899065800AC0C66 /* CSGOBrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGOBrowseView.swift; sourceTree = "<group>"; };
+		3D9376942899075A00AC0C66 /* VStackMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackMap.swift; sourceTree = "<group>"; };
+		3D93769628991E7000AC0C66 /* mapmusic6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic6.mp3; sourceTree = "<group>"; };
+		3D93769728991E7000AC0C66 /* mapmusic5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic5.mp3; sourceTree = "<group>"; };
+		3D93769928991E7000AC0C66 /* mapmusic7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic7.mp3; sourceTree = "<group>"; };
+		3D93769A28991E7000AC0C66 /* mapmusic3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic3.mp3; sourceTree = "<group>"; };
+		3D93769B28991E7000AC0C66 /* mapmusic8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic8.mp3; sourceTree = "<group>"; };
+		3D93769C28991E7000AC0C66 /* mapmusic10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic10.mp3; sourceTree = "<group>"; };
+		3D93769D28991E7000AC0C66 /* mapmusic4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic4.mp3; sourceTree = "<group>"; };
+		3D93769E28991E7000AC0C66 /* mapmusic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic2.mp3; sourceTree = "<group>"; };
+		3D93769F28991E7000AC0C66 /* mapmusic9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic9.mp3; sourceTree = "<group>"; };
+		3D9376AD289927ED00AC0C66 /* welcomemusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = welcomemusic.mp3; sourceTree = "<group>"; };
+		3DB7FF0528939F6700E67352 /* mapmusic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mapmusic1.mp3; sourceTree = "<group>"; };
+		3DB7FF092893C5DD00E67352 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3DB7FF0B2893C60D00E67352 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		3DB7FF0F2893CFB100E67352 /* mode.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mode.json; sourceTree = "<group>"; };
 		3DB96D4D288849F1009B8B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "assignment 1/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		3DC240D9287D78BB000BB557 /* CSGO Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSGO Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC240DC287D78BB000BB557 /* assignment_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_1App.swift; sourceTree = "<group>"; };
 		3DC240E3287D78BF000BB557 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DC240E9287D78C0000BB557 /* CSGO MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSGO MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC240F3287D78C0000BB557 /* CSGO MapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSGO MapsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC2410A287D7C6C000BB557 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3DC2410A287D7C6C000BB557 /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
 		3DC2410C287D8044000BB557 /* GameMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMap.swift; sourceTree = "<group>"; };
 		3DC2410F287D80DB000BB557 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		3DC24112287D8114000BB557 /* map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 		3DC24114287D813A000BB557 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		3DC24116287D825B000BB557 /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
+		3DCF2CAD2898F70800CEB387 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = csgogif1.gif; sourceTree = "<group>"; };
+		3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "csgo-dance.gif"; sourceTree = "<group>"; };
+		3DCF2CB32898FAAB00CEB387 /* letsroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = letsroll.mp3; sourceTree = "<group>"; };
 		3DFC80952892C53C00AC0144 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
 		3DFC80972892CACC00AC0144 /* CalloutMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutMapView.swift; sourceTree = "<group>"; };
 		3DFC80992892CCA700AC0144 /* InfoBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBarView.swift; sourceTree = "<group>"; };
@@ -87,6 +144,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D12EBCF28964F70007F1BFD /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				3D12EBD428967939007F1BFD /* ModeDetail.swift */,
+				3D12EBD62897C786007F1BFD /* MapBanner.swift */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		3D12EBDA2897CD07007F1BFD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3D12EBD22896515F007F1BFD /* HStackModes.swift */,
+				3D12EBD82897CC52007F1BFD /* HStackGroups.swift */,
+				3D9376942899075A00AC0C66 /* VStackMap.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		3D4922202892D9F700C5E6A2 /* DetailComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +179,43 @@
 				3D75D89F288FFFC3000EF0A7 /* ImageZoomView.swift */,
 				3DFC80952892C53C00AC0144 /* RectangleImage.swift */,
 				3D81C7B52886C8BE00A23B71 /* MapView.swift */,
+				3DCF2CAD2898F70800CEB387 /* GifImage.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D4922262893776400C5E6A2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3DCF2CB32898FAAB00CEB387 /* letsroll.mp3 */,
+				3DB7FF0528939F6700E67352 /* mapmusic1.mp3 */,
+				3D93769E28991E7000AC0C66 /* mapmusic2.mp3 */,
+				3D9376AD289927ED00AC0C66 /* welcomemusic.mp3 */,
+				3D93769A28991E7000AC0C66 /* mapmusic3.mp3 */,
+				3D93769D28991E7000AC0C66 /* mapmusic4.mp3 */,
+				3D93769728991E7000AC0C66 /* mapmusic5.mp3 */,
+				3D93769628991E7000AC0C66 /* mapmusic6.mp3 */,
+				3D93769928991E7000AC0C66 /* mapmusic7.mp3 */,
+				3D93769B28991E7000AC0C66 /* mapmusic8.mp3 */,
+				3D93769F28991E7000AC0C66 /* mapmusic9.mp3 */,
+				3D93769C28991E7000AC0C66 /* mapmusic10.mp3 */,
+				3D49B9CE289382FF007F6805 /* maintheme.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3D9376AA289923FA00AC0C66 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D49B9D12893834C007F6805 /* PlaySound.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		3DC240D0287D78BB000BB557 = {
 			isa = PBXGroup;
 			children = (
+				3D4922252892E78C00C5E6A2 /* CSGO-Maps-Info.plist */,
 				3DC240DB287D78BB000BB557 /* assignment 1 */,
 				3DC240DA287D78BB000BB557 /* Products */,
 			);
@@ -128,6 +234,8 @@
 		3DC240DB287D78BB000BB557 /* assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				3D9376AA289923FA00AC0C66 /* Helper */,
+				3D4922262893776400C5E6A2 /* Sounds */,
 				3DB96D4D288849F1009B8B6A /* Assets.xcassets */,
 				3DC24111287D80FA000BB557 /* Data */,
 				3DC2410E287D8059000BB557 /* Services */,
@@ -135,6 +243,8 @@
 				3DC24108287D7C30000BB557 /* Views */,
 				3DC24106287D7BC6000BB557 /* ModelViews */,
 				3DC240DC287D78BB000BB557 /* assignment_1App.swift */,
+				3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */,
+				3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */,
 				3DC240E2287D78BF000BB557 /* Preview Content */,
 			);
 			path = "assignment 1";
@@ -159,10 +269,16 @@
 		3DC24108287D7C30000BB557 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3D12EBDA2897CD07007F1BFD /* Layout */,
+				3D12EBCF28964F70007F1BFD /* Blocks */,
 				3D4922212892DA2800C5E6A2 /* Utils */,
 				3D4922202892D9F700C5E6A2 /* DetailComponents */,
-				3DC2410A287D7C6C000BB557 /* ListView.swift */,
+				3DC2410A287D7C6C000BB557 /* FeaturedView.swift */,
 				3DC24116287D825B000BB557 /* MapDetailView.swift */,
+				3DB7FF092893C5DD00E67352 /* WelcomeView.swift */,
+				3D9376922899065800AC0C66 /* CSGOBrowseView.swift */,
+				3D937690289905C900AC0C66 /* CSGOTabView.swift */,
+				3DB7FF0B2893C60D00E67352 /* GreetingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC2410C287D8044000BB557 /* GameMap.swift */,
+				3D12EBCD28964980007F1BFD /* GameMode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC24112287D8114000BB557 /* map.json */,
+				3DB7FF0F2893CFB100E67352 /* mode.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -295,9 +413,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCF2CB02898F8B800CEB387 /* csgogif1.gif in Resources */,
+				3DB7FF0628939F6700E67352 /* mapmusic1.mp3 in Resources */,
+				3D9376A028991E7000AC0C66 /* mapmusic6.mp3 in Resources */,
+				3DCF2CB42898FAAB00CEB387 /* letsroll.mp3 in Resources */,
 				3DC240E4287D78BF000BB557 /* Preview Assets.xcassets in Resources */,
 				3DB96D4E288849F1009B8B6A /* Assets.xcassets in Resources */,
 				3DC24113287D8114000BB557 /* map.json in Resources */,
+				3D9376A128991E7000AC0C66 /* mapmusic5.mp3 in Resources */,
+				3D9376A828991E7000AC0C66 /* mapmusic2.mp3 in Resources */,
+				3D9376A928991E7000AC0C66 /* mapmusic9.mp3 in Resources */,
+				3D9376A528991E7000AC0C66 /* mapmusic8.mp3 in Resources */,
+				3D49B9CF289382FF007F6805 /* maintheme.mp3 in Resources */,
+				3DCF2CB22898F92E00CEB387 /* csgo-dance.gif in Resources */,
+				3D9376A328991E7000AC0C66 /* mapmusic7.mp3 in Resources */,
+				3D9376A628991E7000AC0C66 /* mapmusic10.mp3 in Resources */,
+				3DB7FF102893CFB100E67352 /* mode.json in Resources */,
+				3D9376A728991E7000AC0C66 /* mapmusic4.mp3 in Resources */,
+				3D9376AE289927ED00AC0C66 /* welcomemusic.mp3 in Resources */,
+				3D9376A428991E7000AC0C66 /* mapmusic3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,18 +456,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9376932899065800AC0C66 /* CSGOBrowseView.swift in Sources */,
 				3D81C7B62886C8BE00A23B71 /* MapView.swift in Sources */,
 				3DFC80962892C53C00AC0144 /* RectangleImage.swift in Sources */,
 				3D75D8A0288FFFC3000EF0A7 /* ImageZoomView.swift in Sources */,
 				3DC24115287D813A000BB557 /* MapModel.swift in Sources */,
-				3DC2410B287D7C6C000BB557 /* ListView.swift in Sources */,
+				3DC2410B287D7C6C000BB557 /* FeaturedView.swift in Sources */,
 				3DC2410D287D8044000BB557 /* GameMap.swift in Sources */,
 				3DFC80982892CACC00AC0144 /* CalloutMapView.swift in Sources */,
 				3DC240DD287D78BB000BB557 /* assignment_1App.swift in Sources */,
+				3D12EBCE28964980007F1BFD /* GameMode.swift in Sources */,
+				3D12EBD72897C786007F1BFD /* MapBanner.swift in Sources */,
+				3D12EBD92897CC52007F1BFD /* HStackGroups.swift in Sources */,
 				3DFC809A2892CCA700AC0144 /* InfoBarView.swift in Sources */,
 				3D4922242892DAD700C5E6A2 /* HeaderDetail.swift in Sources */,
+				3D937691289905C900AC0C66 /* CSGOTabView.swift in Sources */,
+				3D12EBD528967939007F1BFD /* ModeDetail.swift in Sources */,
+				3D9376952899075A00AC0C66 /* VStackMap.swift in Sources */,
 				3DC24110287D80DB000BB557 /* DataServices.swift in Sources */,
+				3D49B9D22893834C007F6805 /* PlaySound.swift in Sources */,
+				3D12EBD32896515F007F1BFD /* HStackModes.swift in Sources */,
 				3DC24117287D825B000BB557 /* MapDetailView.swift in Sources */,
+				3DB7FF0C2893C60D00E67352 /* GreetingView.swift in Sources */,
+				3DCF2CAE2898F70800CEB387 /* GifImage.swift in Sources */,
+				3DB7FF0A2893C5DD00E67352 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +563,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -471,6 +619,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -492,9 +642,9 @@
 				DEVELOPMENT_TEAM = 96KC8DHUNT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CSGO-Maps-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
@@ -522,9 +672,9 @@
 				DEVELOPMENT_TEAM = 96KC8DHUNT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CSGO-Maps-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;

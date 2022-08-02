@@ -1,16 +1,36 @@
-//
-//  PlayerModel.swift
-//  assignment 1
-//
-//  Created by William on 12/07/2022.
-//
-
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 28/07/2022
+  Acknowledgement:
+    
+ 
+*/
 import Foundation
+import SwiftUI
 
+/*
+ Pushlished the data so it can be displayed
+ */
 class MapModel: ObservableObject {
     @Published var maps = [GameMap]()
+    @Published var modes = [GameMode]()
     init() {
-        self.maps = DataService.getLocalData()
+        self.maps = DataService.getMapData()
+        self.modes = DataService.getModeData()
+    }
+    func getMap(name: String) -> GameMap {
+        // compare between in Gamemap to the name get from pass in
+        let map: GameMap? = maps.first(where: { $0.name?.lowercased() == name.lowercased() })
+        // do something with foo
+        return map ?? GameMap()
     }
 
+
 }
+

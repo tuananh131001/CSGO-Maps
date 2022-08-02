@@ -1,76 +1,101 @@
-
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 28/07/2022
+  Acknowledgement:
+    https://www.youtube.com/watch?v=p0SwXJYJp2U
+ 
+*/
 import SwiftUI
 
+/*
+ A view user can double tap or pinch to zoom the callouts
+ */
 struct ImageZoomView: View {
+
+    @GestureState private var scaleState: CGFloat = 1
+    @GestureState private var offsetState = CGSize.zero
+
+    @State private var offset = CGSize.zero
+    @State private var scale: CGFloat = 1
+
     var name: String
-    @State var scale: CGFloat = 1.0
-    @State var isTapped: Bool = false
-    @State var pointTapped: CGPoint = CGPoint.zero
-    @State var draggedSize: CGSize = CGSize.zero
-    @State var previousDragged: CGSize = CGSize.zero
+
+    func resetStatus() {
+        self.offset = CGSize.zero
+        self.scale = 1
+    }
+    func zoomInButton() {
+        self.scale *= 1.2
+    }
+    func zoomOutButton() {
+        self.scale /= 1.2
+    }
+
+    init(name: String) {
+        self.name = name
+        resetStatus()
+    }
+
+    var zoomGesture: some Gesture {
+//
+        MagnificationGesture()
+            .updating($scaleState) { currentState, gestureState, _ in
+            gestureState = gestureState
+        }
+            .onEnded { value in
+            scale += 0
+        }
+    }
+
+
+    var dragGesture: some Gesture {
+        DragGesture()
+            .updating($offsetState) { currentState, gestureState, _ in
+            gestureState = currentState.translation
+        }.onEnded { value in
+            offset.height += value.translation.height
+            offset.width += value.translation.width
+            print(offset.height)
+
+
+        }
+    }
+
+    var doubleTapGesture: some Gesture {
+        TapGesture(count: 2).onEnded { value in
+            resetStatus()
+        }
+    }
     var body: some View {
-        GeometryReader { reader in
+
+        VStack(alignment: .trailing) {
             Image(name)
                 .resizable()
                 .scaledToFit()
-                .offset(x: self.draggedSize.width, y: 0)
-                .scaleEffect(self.scale,
-                anchor: UnitPoint(
-                    x: self.pointTapped.x / reader.frame(in: .global).maxX,
-                    y: self.pointTapped.y / reader.frame(in: .global).maxY
-                ))
-                .gesture(TapGesture(count: 2)
-                    .onEnded({
-                    self.isTapped = !self.isTapped
-                    if self.isTapped {
-                        self.scale = 2.0
-                    } else {
-                        self.scale = 1.0
-                    }
-                })
-                    .simultaneously(with: DragGesture(minimumDistance: 0, coordinateSpace: .global)
-                        .onChanged({ (value) in
-                        self.pointTapped = value.startLocation
-                        self.draggedSize = CGSize(
-                            width: value.translation.width + self.previousDragged.width,
-                            height: value.translation.height + self.previousDragged.height)
-                    }).onEnded({ (value) in
+                .scaleEffect(self.scale * scaleState)
+                .offset(x: offset.width + offsetState.width, y: offset.height + offsetState.height)
+                .gesture(SimultaneousGesture(zoomGesture, dragGesture))
+                .gesture(doubleTapGesture)
 
-                        let offsetWidth = (reader.frame(in: .global).maxX * self.scale - reader.frame(in: .global).maxX) / 2
-                        let newDraggedWidth = self.draggedSize.width * self.scale
+            VStack {
+                Button {
+                    zoomInButton()
+                } label: {
+                    Image(systemName: "plus.magnifyingglass").resizable().foregroundColor(.white).frame(width: 50, height: 50)
+                }
+                Button {
+                    zoomOutButton()
+                } label: {
+                    Image(systemName: "minus.magnifyingglass").resizable().foregroundColor(.white).frame(width: 50, height: 50)
+                }
+            }.padding(5).background(Color(red: 255, green: 0, blue: 0, opacity: 0.1)).cornerRadius(10).padding(5)
 
-                        let offsetHeight = (reader.frame(in: .global).maxY * self.scale - reader.frame(in: .global).maxY) / 2
-                        let newDraggedHeight = self.draggedSize.height * self.scale
-
-                        self.draggedSize = CGSize(width: value.translation.width + self.previousDragged.width,
-                            height: value.translation.height + self.previousDragged.height)
-
-                        if newDraggedWidth > offsetWidth {
-
-                            self.draggedSize.width = offsetWidth / self.scale
-
-                        } else if newDraggedWidth < -offsetWidth {
-
-                            self.draggedSize.width = -offsetWidth / self.scale
-                        }
-
-                        if newDraggedHeight > offsetHeight {
-
-                            self.draggedSize.height = offsetHeight / self.scale
-
-                        } else if newDraggedHeight < -offsetHeight {
-
-                            self.draggedSize.height = -offsetHeight / self.scale
-                        }
-
-                        self.previousDragged = self.draggedSize
-
-                    }))).gesture(MagnificationGesture()
-                    .onChanged({ (scale) in
-                    self.scale = scale.magnitude
-                }).onEnded({ (scaleFinal) in
-                    self.scale = scaleFinal.magnitude
-                }))
         }.background(Image("background"))
     }
 }

@@ -1,10 +1,16 @@
-//
-//  RectangleImage.swift
-//  CSGO Maps
-//
-//  Created by William on 28/07/2022.
-//
-
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 28/07/2022
+  Acknowledgement:
+  Tom Huynh's Circle View
+ 
+*/
 import SwiftUI
 
 struct RectangleImage: View {
@@ -13,9 +19,8 @@ struct RectangleImage: View {
     var body: some View {
         image
             .resizable()
-            .frame(width: 150, height: 150)
+            .frame(width: 160, height: 150)
             .clipShape(Rectangle())
-            .overlay(Rectangle().stroke(Color(.white),lineWidth: 5))
             .shadow(radius: 7)
             .cornerRadius(20)
             

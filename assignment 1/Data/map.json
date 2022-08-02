@@ -1,87 +1,242 @@
 [
    {
       "name":"Mirage",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morocco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "map":"miragemap",
-         "ctwin":52.6,
-
+      "overview":"The map is themed like a Middle Eastern town, but because of its close resemblance to Moroccan style architecture, it is likely set somewhere in Morocco.",
+      "location":"Morocco",
+      "latitude":32.1425789,
+      "longitude":-7.0849336,
+      "ctwin":52.6
    },
    {
       "name":"Inferno",
-      "overview":"Valve and Hidden Path Entertainment had refined the map's visuals and implemented small gameplay tweaks. For instance, the original versions of Mirage had textures similar to Italy. Later on, it was changed into a Dust-like setting.",
+      "overview":"The map is set in a small town with European architecture. In the Global Offensive version, the presence of the Separatist faction suggests that the map is definitely set in Italy, as evidenced by the signs written in Italian seen around the map. However, the separatist faction is also present in the Basque country of Spain and France, so it's plausible it could be there, too.The map is loosely rectangular, with the Counter-Terrorists spawning on one corner of the map and the Terrorists on the diagonally opposite corner, and the two bombsites sitting at the other two corners.",
       "location":"Italy",
       "latitude":42.8658916,
       "longitude":11.9918683,
-      "ctwin":49.9,
+      "ctwin":49.9
    },
    {
       "name":"Nuke",
-      "overview":"Overpass is a bomb defusal map that was introduced in the Winter Offensive update along with Cobblestone. It was CS:GO's first completely new defuse map that was designed specifically for use in competitive play. [1]",
+      "overview":"The map takes place in a warehouse containing nuclear materials or a nuclear power plant. In Global Offensive, the original version of the map takes place a German nuclear power plant, while the revamped version takes place in an American one.Unlike most Counter-Strike bomb defusal maps, the map revolves around a central structure rather than multiple lanes, with the two bombsites being overlapped on top of each other.",
       "location":"Germany",
       "latitude":52.5069312,
       "longitude":13.1445504,
-      "ctwin":55.1,
+      "ctwin":55.1
    },
-   
    {
       "name":"Overpass",
-      "overview":"Overpass is a bomb defusal map that was introduced in the Winter Offensive update along with Cobblestone. It was CS:GO's first completely new defuse map that was designed specifically for use in competitive play. [1]",
+      "overview":"The map's setting is a canal overpass and the park built above it in Berlin, Germany. The GSG-9 must protect a stalled military shipment on a canal overpass while the Phoenix Connexion can either attack the shipment head-on or attempt to destroy the overpass itself by bombing the pillar below.",
       "location":"Germany",
       "latitude":52.5069312,
       "longitude":13.1445504,
-      "ctwin":53.3,
+      "ctwin":53.3
    },
    {
       "name":"Dust II",
-      "overview":"Dust II is a bomb defusal map in Counter-Strike: Global Offensive. The Counter-Terrorists have two objectives: to prevent the Terrorists from planting the C-4 at either of the two chemical weapon stashes (Bombsites A or B), or to defuse the bomb after the Terrorists plant. The map appears to be based in the Middle East, similar to its predecessor Dust. Dust II is arguably the most popular and played Counter-Strike map and perhaps the most iconic map of the franchise. It was reskinned in October of 2017, which was its first major change in CS:GO since being released.",
-      "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "ctwin":48.8,
-
+      "overview":"The map appears to be set in the Middle East, similar to its predecessor Dust. An earlier version of the map lack many identifying features, with the only identifying features being what looks like sandstone textures for walls and sand for floor.",
+      "location":"Morocco",
+      "latitude":32.1425789,
+      "longitude":-7.0849336,
+      "ctwin":48.8
    },
    {
       "name":"Vertigo",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "ctwin":49.2,
+      "overview":"Vertigo is based on a skyscraper that is under construction and centered the conflict between the Counter-Terrorist and the Terrorist teams. The main objective for the Terrorists is to bomb the building while the CTs must prevent them from achieving their goal.",
+      "location":"United States",
+      "latitude":37.6,
+      "longitude":-95.665,
+      "ctwin":49.2
    },
    {
       "name":"Train",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "ctwin":54.7,
+      "overview":"As a nuclear payload train is sent to the Железо airport to then be shipped to the Cedar Creek nuclear plant on December 12th 2014. Its route passes through the Next™ train hangar, a Russian railway company that has previously been known for backing corrupt agents from The Coalition for their own gains. The Balkans, a Terrorist faction previously known for their multiple successful operations, has arrived to trap the train station with explosives days before its arrival. Intel suggests that the explosives did not manage to blow the entire station, but only managed to de-rail the nuclear train. On December 10th 2014, the terrorist group takes matters into their own hands and bring up a highly explosive C4 to destroy the place once and for all, but the Counter-Terrorists are here to stop the explosion and defuse the bomb.",
+      "location":"Russia",
+      "latitude":49.8158482,
+      "longitude":68.829333,
+      "ctwin":54.7
    },
    {
       "name":"Cache",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "ctwin":48.5,
+      "overview":"The map takes place in Pripyat, Ukraine. The Chernobyl Power Plant is visible from the Terrorist spawn, along with nearby buildings and even fencing material consistent with the real-life counterpart.",
+      "location":"Ukraine",
+      "latitude":47.9737706,
+      "longitude":21.9683061,
+      "ctwin":48.5
    },
    {
       "name":"Cobblestone",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "map":"miragemap",
-         "ctwin":49.3,
+      "overview":"Cobblestone is a large-sized map, and had quite significant vertical combat in its earlier iterations. In earlier versions, it is fairly easy to take fall damage due to the high height of many of the map's drops. Bots in early versions of the game will also occasionally fall to their deaths. Additionally, this map is open, making snipers very useful.",
+      "location":"France",
+      "latitude":46.5852318,
+      "longitude":2.2241155,
+      "ctwin":49.3
    },
    {
       "name":"Ancient",
-      "overview":"This version of the map has a few visual improvements but not much has changed. The hay stacks and the fish ponds still make an appearance but nuclear containment barrels have also been added. The skybox has also changed, similar to Counter-Strike 1.0. On October 10th, 2016, the map received a major texture and graphic overhaul, as well as reopening the exit for T spawn originally from source, as well as other minor layout changes. The Counter-Terrorist forces are revealed as SAS, while the Terrorist forces are known as the Separatists.",
-        "location":"Morroco",
-         "latitude":32.1425789,
-         "longitude":-7.0849336,
-         "ctwin":57.0,
+      "overview":"Ancient appears to take place in an archaeological site in the middle of a rainforest (likely in central America). Across the map there are plenty of artefacts such as pots, artworks and monuments which resemble those from the Aztec empire. Each bombsite is referred to as a 'plaza' in the signage and has a distinct theme color. Bombsite A is colored orange, with tarps, paint and signs and Bombsite B is a pale blue color.",
+      "location":"Mexico",
+      "latitude":19.3680771,
+      "longitude":-99.3653587,
+      "ctwin":57
    },
-]
+   {
+      "name":"Agency",
+      "overview":"The highly polished confines of this modern corporate skyscraper are host to a frantic hostage rescue.",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Office",
+      "overview":"It is set in the winter in a office building with parking areas and outside yards. Counter-Terrorists (CT) spawn zone is in a parking garage while the Terrorists are inside the offices. Counter-Terrorists can enter the offices by the front entrance, back hallway or through the glass windows. Near their spawn are rooms which can be used for sniping. There is also a backyard and a hallway at the back of the garage which leads to the offices. This path is connected to the main hallway and leads directly to the Terrorist spawn.",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Iris",
+      "overview":"A bomb defusal map set in a small mid-century town that once thrived from its auto-industry. Now anarchists are threatening to blow up the whole town",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":57
+   },
+   {
+      "name":"Climb",
+      "overview":"Due to a recent price increase at the local climbing gym, the terrorists are not too happy. They've subsequently taken desperate measures to be heard. By breaking in and taking 2 members of the management hostage, they hope to see the prices return to normal. The terrorists now pose a threat to anyone trying to visit the climbing gym, so it is up to the local police to stop them..",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Cannals",
+      "overview":"Ancient appears to take place in an archaeological site in the middle of a rainforest (likely in central America). Across the map there are plenty of artefacts such as pots, artworks and monuments which resemble those from the Aztec empire. Each bombsite is referred to as a 'plaza' in the signage and has a distinct theme color. Bombsite A is colored orange, with tarps, paint and signs and Bombsite B is a pale blue color.",
+      "location":"it",
+      "latitude":41.9102415,
+      "longitude":12.3959125,
+      "ctwin":57
+   },
+   {
+      "name":"Militia",
+      "overview":"The map layout is similar to Source but remade completely in some areas for additional cover. It is more balanced for the Counter-Terrorist team, unlike in previous titles when they were easily pinned down by Terrorist snipers.",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":57
+   },
+   {
+      "name":"Italy",
+      "overview":"Ancient appears to take place in an archaeological site in the middle of a rainforest (likely in central America). Across the map there are plenty of artefacts such as pots, artworks and monuments which resemble those from the Aztec empire. Each bombsite is referred to as a 'plaza' in the signage and has a distinct theme color. Bombsite A is colored orange, with tarps, paint and signs and Bombsite B is a pale blue color.",
+      "location":"Italy",
+      "latitude":42.8658916,
+      "longitude":11.9918683,
+      "ctwin":57
+   },
+   {
+      "name":"Assault",
+      "overview":"Counter-Terrorists must rescue hostages captured and put into a warehouse by a group of Terrorists. Despite being included in Counter-Strike and Counter-Strike: Source, both versions are noteworthy for their extreme differences. Counter-Strike: Source brought forth a very realistic approach, as well as excluding the Security cameras. Besides taking away the cameras, one of the major changes was the replacement of the highway with the train station. Some players got frustrated with the new changes, however, they are still present in Counter-Strike: Global Offensive. Even so, Assault is still one of the most popular maps in all Counter-Strike games.",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Lake",
+      "overview":"Lake is a demolition map taking place at a small estate bordering a lake. The Terrorist faction for this map is the Phoenix Connexion and the Counter-Terrorist faction is SEAL Team 6.",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Baggage",
+      "overview":"The conflict is occurring in the baggage claim area of a fictional airport somewhere in Germany. The Terrorist faction is the Phoenix Connexion and the Counter-Terrorist faction is the GSG-9..",
+      "location":"us",
+      "latitude":40.162761,
+      "longitude":-102.2840175,
+      "ctwin":50
+   },
+   {
+      "name":"Safehouse",
+      "overview":"This map was introduced with the original release of the Counter-Strike: Global Offensive beta and is available in Demolition, Arms Race, and Flying Scoutsman modes. In this map, the Terrorists are the Professionals and the Counter-Terrorists are the SWAT team.",
+      "ctwin":50
+   },
+   {
+      "name":"St. Marc",
+      "overview":"St. Marc takes place in the coastal port town of Saint-Marc, Haiti, deep in the Caribbean. The Terrorist Pirate faction fight against the Counter-Terrorist GIGN over a truck carrying chemical weapons..",
+
+      "ctwin":50
+   },
+   {
+      "name":"Shoots",
+      "overview":"Shoots takes place somewhere in Vietnam. The Terrorist faction featured are the Pirates and the Counter-Terrorists are the GIGN.Shoots is a symmetrical map. The Terrorists and Counter-Terrorists spawn on opposite sides of the map, with identical cover provided for both sides.",
+      "location":"vn",
+      "latitude":21.0190007,
+      "longitude":105.8067303,
+      "ctwin":50
+   },
+   {
+      "name":"Lunacy",
+      "overview":"This map is placed in a hangar, with a fake roof supposed to represent the moon's sky.",
+      "ctwin":50
+   },
+   {
+      "name":"Monastery",
+      "overview":"Monastery is a large, open-spaced an Arms Race map added as part of the October 1, 2012 update. It features the GSG-9 as the Counter-Terrorists, and the Balkans as the Terrorists..",
+      "ctwin":50
+   },
+   {
+      "name":"Blacksite",
+      "overview":"The map was created exclusively for the Danger Zone mode. In it, you need to find weapons in order to survive on the map against other 16-18 players. The size of the map to other CS:GO maps is big. The map has bunkers, a hotel, a radio, containers and many other places.",
+      "ctwin":57
+   },
+   {
+      "name":"Ember",
+      "overview":"Danger Zone makes a grand return, this time in a once beautiful Portuguese island, which has seen better days.",
+      "ctwin":50
+   },
+   {
+      "name":"Sirocco",
+      "overview":"Map actions take place on an abandoned island. This map is very similar in theme to Dust II.",
+      "ctwin":50
+   },
+   {
+      "name":"Vineyard",
+      "overview":"Vineyard (dz_vineyard) is a community-created Danger Zone map for designed by Andi, Haaselh0ff, KlixX, Quoting, Seth, Slimek, Squidski and T-R3x3r and is featured in Counter-Strike: Global Offensive. The map was added in the February 21, 2022 update.",
+      "ctwin":50
+   },
+   {
+      "name":"Crete",
+      "overview":"“A peaceful, summer day on a quiet Greek island becomes the back drop for a close quarters defuse scenario.”",
+      "location":"gr",
+      "latitude":35.1551992,
+      "longitude":24.8458298,
+      "ctwin":50
+   },
+   {
+      "name":"Hive",
+      "overview":"Wingman map set in bees research facility.",
+      "location":"gr",
+      "latitude":35.1551992,
+      "longitude":24.8458298,
+      "ctwin":50
+   },
+   {
+      "name":"Shortdust",
+      "overview":"Shortdust is a modified version of the map Dust, featuring only one bombsite with most of the map cut off. There are also several other changes. Bombsite A has been moved to the interior of the palace and the Terrorist Spawn Zone is located in the underpass.",
+      "location":"Morocco",
+      "latitude":32.1425789,
+      "longitude":-7.0849336,
+      "ctwin":50
+   },
+   {
+      "name":"Vineyard",
+      "overview":"The Danger Zone experiment returns to the sun soaked hills of Tuscany, Italy. Between scenic towns and ancient ruins, fight to survive and be the last man standing.",
+      "location":"Morocco",
+      "latitude":32.1425789,
+      "longitude":-7.0849336,
+      "ctwin":50
+   }]

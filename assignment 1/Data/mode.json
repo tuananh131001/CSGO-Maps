@@ -1,0 +1,222 @@
+[
+   {
+      "name":"Competitive",
+      "group":[
+         {
+            "groupName":"Premier",
+            "maps":[
+               "mirage",
+               "inferno",
+               "overpass",
+               "vertigo",
+               "nuke",
+               "ancient",
+               "dust ii",
+               "train",
+               "cache",
+               "agency",
+               "office",
+               "iris",
+               "climb"
+            ]
+         },
+         {
+            "groupName":"Active Duty",
+            "maps":[
+               "mirage",
+               "inferno",
+               "overpass",
+               "vertigo",
+               "nuke",
+               "ancient",
+               "dust ii"
+            ]
+         },
+         {
+            "groupName":"Hostage",
+            "maps":[
+               "agency",
+               "office",
+               "climb"
+            ]
+         },
+         {
+            "groupName":"New",
+            "maps":[
+               "iris",
+               "climb"
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Wingman",
+      "group":[
+         {
+            "groupName":"All",
+            "maps":[
+               "crete",
+               "hive",
+               "vertigo",
+               "inferno",
+               "overpass",
+               "nuke",
+               "train",
+               "shortdust",
+               "lake",
+               "cobblestone"
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Casual",
+      "group":[
+         {
+            "groupName":"Defusal Group Sigma",
+            "maps":[
+               "iris",
+               "ancient",
+               "vertigo",
+               "cobblestone",
+               "cannals"
+            ]
+         },
+         {
+            "groupName":"Defusal Group Sigma",
+            "maps":[
+               "mirage",
+               "inferno",
+               "overpass",
+               "nuke",
+               "train",
+               "cache"
+            ]
+         },
+         {
+            "groupName":"Dust II",
+            "maps":[
+               "dust ii"
+            ]
+         },
+         {
+            "groupName":"Hostage Group",
+            "maps":[
+               "climb",
+               "agency",
+               "militia",
+               "office",
+               "italy",
+               "assault"
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Deathmatch",
+      "group":[
+         {
+            "groupName":"Defusal Group Sigma",
+            "maps":[
+               "iris",
+               "ancient",
+               "vertigo",
+               "cobblestone",
+               "cannals"
+            ]
+         },
+         {
+            "groupName":"Defusal Group Sigma",
+            "maps":[
+               "mirage",
+               "inferno",
+               "overpass",
+               "nuke",
+               "train",
+               "cache"
+            ]
+         },
+         {
+            "groupName":"Dust II",
+            "maps":[
+               "dust ii"
+            ]
+         },
+         {
+            "groupName":"Hostage Group",
+            "maps":[
+               "climb",
+               "agency",
+               "militia",
+               "office",
+               "italy",
+               "assault"
+            ]
+         }
+      ]
+   },
+   {
+      "name":"War Games",
+      "group":[
+         {
+            "groupName":"Arms Race",
+            "maps":[
+               "lake",
+               "baggage",
+               "safehouse",
+               "st. marc",
+               "shoots",
+               "lunacy",
+               "monastery"
+            ]
+         },
+         {
+            "groupName":"Demolition",
+            "maps":[
+               "lake",
+               "safehouse",
+               "sugarcane",
+               "bank",
+               "st. marc",
+               "shortdust"
+            ]
+         },
+         {
+            "groupName":"Flying Scoutsman",
+            "maps":[
+               "lake",
+               "safehouse",
+               "dizzy",
+               "lunacy",
+               "shoots"
+            ]
+         },
+         {
+            "groupName":"Retakes",
+            "maps":[
+               "mirage",
+               "dust ii",
+               "nuke",
+               "overpass",
+               "train",
+               "vertigo",
+               "ancient"
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Danger Zone",
+      "group":[
+         {
+            "groupName":"All",
+            "maps":[
+               "blacksite",
+               "ember",
+               "sirocco",
+               "vineyard"
+            ]
+         }
+      ]
+   }
+]
