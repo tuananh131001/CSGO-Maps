@@ -24,6 +24,7 @@ A CS:GO Maps Information
  4. Origin Map using MapKit based on real location from VALVE
  5. Zoomable Callouts 
  6. Search
+ 7. GIF image in welcome screen
  
  ## 📷 Screenshot
 <img src="https://user-images.githubusercontent.com/67695658/182521502-094600d8-2314-49f5-81c2-2ef5433ae4ca.png" width="238" ><img src="https://user-images.githubusercontent.com/67695658/182521202-f7e34735-5cf1-46df-b7d1-16a0a6a60824.png" width="238" >
