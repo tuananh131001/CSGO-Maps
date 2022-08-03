@@ -16,7 +16,7 @@ struct HStackModes: View {
                 ForEach(mapModel.modes) { mode in
                     NavigationLink(destination: ModeDetail(groupMap: mode), label: {
                             VStack(alignment: .leading) {
-                                Image(mode.name.lowercased() + "logo").resizable().frame(width: 125, height: 175)
+                                Image(mode.name.lowercased() + "logo").resizable().frame(width: 175, height: 175)
                                 Text(mode.name)
                                     .font(.headline)
                                     

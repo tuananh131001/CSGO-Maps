@@ -11,9 +11,9 @@ struct MapBanner: View {
     var mapName:String
     var body: some View {
         ZStack {
-            Image(mapName.lowercased() + "banner").resizable().scaledToFit().clipped().blur(radius: 2).cornerRadius(20)
+            Image(mapName.lowercased() + "banner").resizable().scaledToFit().clipped().blur(radius: 5).cornerRadius(20)
 
-            Text(mapName).font(.largeTitle).fontWeight(.heavy).shadow(radius: /*@START_MENU_TOKEN@*/20/*@END_MENU_TOKEN@*/).foregroundColor(.white)
+            Text(mapName).font(.largeTitle).fontWeight(.heavy).shadow(color:.red,radius: 10).foregroundColor(.white) .background(Rectangle().fill(Color.red).blur(radius: 10))
 
         }
     }
