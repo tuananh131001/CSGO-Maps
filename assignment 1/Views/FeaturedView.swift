@@ -9,10 +9,14 @@
   Last modified: 28/07/2022
   Acknowledgement:
   https://stackoverflow.com/questions/56505528/swiftui-update-navigation-bar-title-color
- 
+  hackingwithswift
 */
 import SwiftUI
 
+/*
+    There are HStack of all of the mode and the VStack all of the map
+    The VStackMap will be random everytime open the app
+ */
 struct FeaturedView: View {
 
     @EnvironmentObject var mapModel: MapModel
@@ -31,7 +35,7 @@ struct FeaturedView: View {
                     HStackModes()
                     Divider()
                     // All Maps View but shuffle every time open app
-                    Text("All Maps").font(.title3)
+                    Text("Interesting Maps").font(.title3)
                         .foregroundColor(Color.white)
                         .fontWeight(.bold)
                         .padding(.all, 5)

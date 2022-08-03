@@ -15,6 +15,7 @@ import SwiftUI
 
 /*
     Inforbar viewcontains the map's counter-terrorist and terrorist win rate of each map
+    >= 50 will be blue and < 50 will be red
     input : percent of counterstrike win rate
 */
 struct InfoBarView: View {

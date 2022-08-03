@@ -9,12 +9,11 @@
   Last modified: 28/07/2022
   Acknowledgement:
     
- 
 */
 import Foundation
 
 /*
-    Class contains the game map information such as name , location ,coordinate, et cetera
+    Class contains the game mode information such as name , group ,groupname, et cetera
 */
 class GameMode: Identifiable, Decodable {
     var id: UUID?

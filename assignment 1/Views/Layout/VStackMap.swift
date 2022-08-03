@@ -1,12 +1,19 @@
-//
-//  VStackMap.swift
-//  CSGO Maps
-//
-//  Created by William on 31/07/2022.
-// ref: https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data#:~:text=Updated%20in%20iOS%2016,when%20used%20with%20a%20list.
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 28/07/2022
+  Acknowledgement:
+
+*/
 
 import SwiftUI
 
+// VStack view for display map . It can be reusable , implement in featured view and browse view
 struct VStackMap: View {
     var mapModel: [GameMap]
     

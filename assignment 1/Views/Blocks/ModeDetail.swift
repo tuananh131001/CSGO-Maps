@@ -1,13 +1,23 @@
-//
-//  ModeDetail.swift
-//  CSGO Maps
-//
-//  Created by William on 31/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 28/07/2022
+  Acknowledgement:
+ https://stackoverflow.com/questions/62739590/how-to-change-color-of-buttons-created-dynamically-inside-foreach-in-swiftui
+*/
 
 import SwiftUI
 
-
+/*
+    Display map of the mode's group .
+    There are filter for each group of the mode
+    
+ */
 struct ModeDetail: View {
     var groupMap: GameMode
     @EnvironmentObject var mapModel: MapModel
@@ -33,7 +43,7 @@ struct ModeDetail: View {
 
 
     }
-    //https://stackoverflow.com/questions/62739590/how-to-change-color-of-buttons-created-dynamically-inside-foreach-in-swiftui
+    
 
 
 }

@@ -13,6 +13,9 @@
 */
 import SwiftUI
 
+/*
+    a rectangle frame
+ */
 struct RectangleImage: View {
     var image: Image
     

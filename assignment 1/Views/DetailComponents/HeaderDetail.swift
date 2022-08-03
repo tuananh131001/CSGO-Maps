@@ -32,7 +32,7 @@ struct HeaderDetail: View {
                 Spacer()
                 mapLocation != "" ? Text("Country Code:") : nil
                 Text(mapLocation?.uppercased() ?? "US")
-                mapLocation != "" ? Image(mapLocation ?? "us").resizable().frame(width: 55, height: 30).cornerRadius(15) : nil
+                mapLocation != "" ? Image(mapLocation ?? "us").resizable().frame(width: 55, height: 30) : nil
             }
         }
     }

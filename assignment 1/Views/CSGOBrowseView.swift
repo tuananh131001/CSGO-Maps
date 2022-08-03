@@ -1,12 +1,23 @@
-//
-//  CSGOBrowseView.swift
-//  CSGO Maps
-//
-//  Created by William on 02/08/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Anh
+  ID: s3864077
+  Created  date: 26/07/2022
+  Last modified: 3/08/2022
+  Acknowledgement:
+*/
 
 import SwiftUI
 
+/*
+ Tab view of Browse view
+ Display all the map the in the app.
+ There is a search bar to search for the map
+ User can click in the banner to access the detail of the map
+ */
 struct CSGOBrowseView: View {
     @State private var searchText = ""
     @EnvironmentObject var mapModel: MapModel

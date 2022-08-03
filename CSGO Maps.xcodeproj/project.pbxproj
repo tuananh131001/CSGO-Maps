@@ -44,7 +44,6 @@
 		3DC24115287D813A000BB557 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC24114287D813A000BB557 /* MapModel.swift */; };
 		3DC24117287D825B000BB557 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC24116287D825B000BB557 /* MapDetailView.swift */; };
 		3DCF2CAE2898F70800CEB387 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF2CAD2898F70800CEB387 /* GifImage.swift */; };
-		3DCF2CB02898F8B800CEB387 /* csgogif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */; };
 		3DCF2CB22898F92E00CEB387 /* csgo-dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */; };
 		3DCF2CB42898FAAB00CEB387 /* letsroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF2CB32898FAAB00CEB387 /* letsroll.mp3 */; };
 		3DFC80962892C53C00AC0144 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC80952892C53C00AC0144 /* RectangleImage.swift */; };
@@ -111,7 +110,6 @@
 		3DC24114287D813A000BB557 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		3DC24116287D825B000BB557 /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
 		3DCF2CAD2898F70800CEB387 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
-		3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = csgogif1.gif; sourceTree = "<group>"; };
 		3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "csgo-dance.gif"; sourceTree = "<group>"; };
 		3DCF2CB32898FAAB00CEB387 /* letsroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = letsroll.mp3; sourceTree = "<group>"; };
 		3DFC80952892C53C00AC0144 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
@@ -147,6 +145,7 @@
 		3D12EBCF28964F70007F1BFD /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				3DC24116287D825B000BB557 /* MapDetailView.swift */,
 				3D12EBD428967939007F1BFD /* ModeDetail.swift */,
 				3D12EBD62897C786007F1BFD /* MapBanner.swift */,
 			);
@@ -244,7 +243,6 @@
 				3DC24106287D7BC6000BB557 /* ModelViews */,
 				3DC240DC287D78BB000BB557 /* assignment_1App.swift */,
 				3DCF2CB12898F92E00CEB387 /* csgo-dance.gif */,
-				3DCF2CAF2898F8B800CEB387 /* csgogif1.gif */,
 				3DC240E2287D78BF000BB557 /* Preview Content */,
 			);
 			path = "assignment 1";
@@ -274,7 +272,6 @@
 				3D4922212892DA2800C5E6A2 /* Utils */,
 				3D4922202892D9F700C5E6A2 /* DetailComponents */,
 				3DC2410A287D7C6C000BB557 /* FeaturedView.swift */,
-				3DC24116287D825B000BB557 /* MapDetailView.swift */,
 				3DB7FF092893C5DD00E67352 /* WelcomeView.swift */,
 				3D9376922899065800AC0C66 /* CSGOBrowseView.swift */,
 				3D937690289905C900AC0C66 /* CSGOTabView.swift */,
@@ -413,7 +410,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCF2CB02898F8B800CEB387 /* csgogif1.gif in Resources */,
 				3DB7FF0628939F6700E67352 /* mapmusic1.mp3 in Resources */,
 				3D9376A028991E7000AC0C66 /* mapmusic6.mp3 in Resources */,
 				3DCF2CB42898FAAB00CEB387 /* letsroll.mp3 in Resources */,

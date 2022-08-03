@@ -14,6 +14,9 @@
 import SwiftUI
 import MapKit
 
+/*
+ A map view based on MapKit , use input coordinate to display the location on Apple Map
+ */
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
 

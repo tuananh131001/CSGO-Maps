@@ -14,7 +14,8 @@
 import SwiftUI
 
 /*
- A view user can double tap or pinch to zoom the callouts
+ A view user use the zoom out and zoom in on the right hand to zoom.
+ User can use finger to move around the map
  */
 struct ImageZoomView: View {
 

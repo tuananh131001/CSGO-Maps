@@ -14,7 +14,8 @@ import SwiftUI
 import CoreLocation
 /*
     The detail view of each map
-    Contains all module views
+    Contains all module views Header,Info,Map,Callouts,Description
+    There is music random on every map
     input : GameMap class
     
  */

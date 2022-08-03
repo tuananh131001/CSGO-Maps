@@ -15,7 +15,9 @@ import Foundation
 import SwiftUI
 
 /*
- Pushlished the data so it can be displayed
+ There are 2 data from maps and modes
+ Pushlished the data so it can be displayed and access
+ Function get map from a String and return a GameMap object
  */
 class MapModel: ObservableObject {
     @Published var maps = [GameMap]()
